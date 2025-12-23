@@ -1,0 +1,29 @@
+package conspack;
+
+public class MultiCons {
+
+	int x, y;
+	
+	MultiCons()
+	{
+		// constructor
+		System.out.println("Constructor without para-meters");
+		this.x = 11;
+		this.y = 12;
+	}
+	
+	MultiCons(int x, int y)
+	{
+		// constructor
+		System.out.println("Constructor with para-meters");
+		this.x = x;
+		this.y = y;
+	}
+	
+	void printVal()
+	{
+		System.out.println("X value is : " +x);
+		System.out.println("Y value is : " +y);
+	}
+}
+

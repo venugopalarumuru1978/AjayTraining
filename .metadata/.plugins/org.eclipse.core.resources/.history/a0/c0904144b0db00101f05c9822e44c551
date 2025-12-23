@@ -1,0 +1,43 @@
+import java.util.Scanner;
+
+public class ifex4 {
+
+	public static void main(String[] args) {
+		// nested if
+		// big number from 3 numbers
+
+		Scanner scObj =new Scanner(System.in);
+		System.out.println("Enter any 3 values ");
+		int x = scObj.nextInt();
+		int y = scObj.nextInt();
+		int z = scObj.nextInt();
+		
+		// x=10,y=5,z=6 = x is big
+		// x=10,y=50,z=6 = y is big
+		// x=10,y=50,z=60 = z is big
+		// x=10,y=4,z=4 = x is big
+		// x=10,y=10,z=4 = any two or all values are same
+		
+		if(x>y)
+		{
+			if(x>z)
+				System.out.println("First is big");
+		}
+		
+		if(y>x)
+		{
+			if(y>z)
+				System.out.println("Second is big");
+		}
+		
+		if(z>x)
+			{
+			if(z>y)
+				System.out.println("Third is big");
+			}
+		
+			if(x==y || x==z || y==z)
+				System.out.println("Any two or all values are same");
+	}
+}
+

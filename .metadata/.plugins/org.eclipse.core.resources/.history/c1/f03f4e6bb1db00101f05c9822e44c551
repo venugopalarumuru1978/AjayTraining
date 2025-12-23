@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class swtEx1 {
+
+	public static void main(String[] args) {
+		// simple if
+		// even or odd
+
+		Scanner scObj =new Scanner(System.in);
+		System.out.println("Enter any value ");
+		int n = scObj.nextInt();
+		
+		if(n%2==0)
+		{
+			System.out.println("Even Number");
+		}
+		
+		if(n%2!=0)
+		{
+			System.out.println("Odd Number");
+		}
+	}
+}
+

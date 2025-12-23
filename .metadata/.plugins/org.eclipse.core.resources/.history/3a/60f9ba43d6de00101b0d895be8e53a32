@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class Student {
+
+	String sname;
+	int sub1, sub2;
+	
+	void getStd()
+	{
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter Std name and two subject marks");
+		sname = sc.next();
+		sub1 =sc.nextInt();
+		sub2 = sc.nextInt();
+	}
+	
+	void printStd()
+	{
+		
+	}
+}

@@ -1,0 +1,10 @@
+package conspack;
+
+public class consMain {
+
+	public static void main(String[] args) {
+
+		DemoCons  dc1 = new DemoCons();
+	}
+
+}

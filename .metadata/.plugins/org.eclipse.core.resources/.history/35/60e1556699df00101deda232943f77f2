@@ -1,0 +1,14 @@
+package conspack;
+
+public class consMain {
+
+	public static void main(String[] args) {
+
+		DemoCons  dc1 = new DemoCons();
+		dc1.printVal();
+		
+		DemoCons  dc2 = new DemoCons();
+		dc2.printVal();
+	}
+
+}

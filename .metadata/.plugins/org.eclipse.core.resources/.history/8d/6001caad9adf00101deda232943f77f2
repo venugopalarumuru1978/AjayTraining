@@ -1,0 +1,21 @@
+package conspack;
+
+public class ConsParams {
+
+	int x, y;
+	
+	ConsParams(int x, int y)
+	{
+		// constructor
+		System.out.println("Constructor with para-meters");
+		x = a;
+		y = b;
+	}
+	
+	void printVal()
+	{
+		System.out.println("X value is : " +x);
+		System.out.println("Y value is : " +y);
+	}
+}
+

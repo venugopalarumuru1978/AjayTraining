@@ -1,0 +1,14 @@
+package getsetpack;
+
+import java.util.Scanner;
+
+public class StdMain {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		
+		
+	}
+
+}

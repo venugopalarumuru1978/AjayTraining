@@ -1,0 +1,19 @@
+
+public class Simple {
+
+	private int x,y;
+	
+	public void getData()
+	{
+		x = 10;
+		y = 20;
+	}
+	
+	public void putData()
+	{
+		int sum = x+y;  
+		System.out.println(x + " " + y + " " + sum);
+	}
+}
+
+

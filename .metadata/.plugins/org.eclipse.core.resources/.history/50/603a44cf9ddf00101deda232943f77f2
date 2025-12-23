@@ -1,0 +1,8 @@
+package getsetpack;
+
+public class TestClass {
+	private int x;
+	private float y;
+	
+	
+}

@@ -1,0 +1,11 @@
+package getsetpack;
+
+public class testMain {
+
+	public static void main(String[] args) {
+
+		TestClass tc1 = new TestClass();
+		
+	}
+
+}

@@ -1,0 +1,9 @@
+package getsetpack;
+
+public class StdMain {
+
+	public static void main(String[] args) {
+
+	}
+
+}
