@@ -1,0 +1,130 @@
+OOPS Concepts
+-------------
+OOPS :-  Object Oriented Programing Structure.
+
+It is a Programming architecture  to provide security for the data.
+here programming lang which we are using called as object oriented programming languages.
+C++, Java, C#.Net,....
+
+Object
+Class
+Abstraction
+Encapulation
+Inheritance
+Polymarphisum
+----------
+Object :-  It is a thing in the real world which has some attributes and functionalities. 
+
+		Example :-  Car is an Object
+				Attributes :-  Color, Model, Capacity, Company, .....
+				Functionality :-  Transportation, Engine Start, Changing Gears, Using Breaks, ..
+
+Object are not natural entities of the world, these are instances of their parent units. 
+
+Class :- It is a blue print for the object. 
+			or
+	It is an encapuslated cell which is used to define attributes and functionalites of the object. 
+
+
+Syntax :- 
+
+class <class name>
+{
+	Variables (Data Members)
+	Methods  (Member Functions - user defined functions)
+}
+
+
+Data Members :-  These are the variables where data can be stored. These are also called as Instance variables. 
+Member Functions :-  These are the user defined function where data members can be manipulated. 
+
+class Demo
+{
+	int x,y;
+
+	void getData()
+	{
+		x = 10;
+		y = 20;
+	}
+
+	void putData()
+	{
+		int sum = x+y;
+		SOP(x);
+		SOP(y);
+		SOP(sum);
+	}
+}
+
+Object :-  It is an instance of the class. 
+
+<ClassName>  <object>  =new <ClassName>([para meters]);
+
+Demo   d1 = new Demo();
+Once object is created, we can access class members with the help of object as follows
+
+	ObjectName.MemberName
+
+	d1.getData();
+	d1.putData();
+
+Object of the class will be created either outside the class(i.e. in another class) or inside the  class
+when it is having main() method. 
+
+//  Create a class Employee, where it should take empname, job,salary then calculate
+//  10% comm and netsalary(sal+comm). 
+//  create it for 3 employees
+---------------------------------------------------
+constructor :- It is a special method, it has same name of class. 
+
+purpose :-   to provide initial task for the object. i.e. initilization of the instance variables. 
+
+Points :- 
+
+1.  It will execute automatically whenever we create an object. 
+2.  It can take parameters, for that parameters, values can be passed at the time of object creation. 
+3.  A class can have multiple constructors, but each constructor should have diff no of parameters. 
+-----------------------
+Access Specifiers :-   these are the keywords which allows to specify how to access class members. 
+
+private  :-  only inside the class
+public   :-  inside and outside of the class
+protected :-  from specific class to another specific class.(inheritance)
+
+by default class members are public. 
+----------------------------
+getters and setters :- these are special methods which can be used to access a class private variable into outside of the class. 
+
+setter methods are used to assign value to the variable.
+getter methods are used to return value from variable.
+
+
+class abc
+{
+
+private int x;
+private float y;
+
+void setX(int x)
+{
+this.x = x;
+}
+
+int getX()
+{
+return x;
+}
+
+
+void setY(float y)
+{
+this.y = y;
+}
+
+float getY()
+{
+return y;
+}
+
+}

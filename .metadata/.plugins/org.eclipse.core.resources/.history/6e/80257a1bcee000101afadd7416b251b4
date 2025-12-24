@@ -1,0 +1,30 @@
+package staticpack;
+
+public class CustomerFun {
+
+	
+	private CustomerInfo  ci = new CustomerInfo();
+	
+	public void getCustomerInfo(String cname, int acc_bal)
+	{
+		ci.setCname(cname);
+		ci.setAcc_bal(acc_bal);
+		CustomerInfo.setBank_bal(CustomerInfo.getBank_bal()+ci.getAcc_bal());
+		
+		//this.cname = cname;
+		//this.acc_bal = acc_bal;		
+		//bank_bal = bank_bal + this.acc_bal;
+	}
+	
+	public void CustoerInfo()
+	{
+		System.out.println("Customer Name : " + ci.getCname());
+		System.out.println("Account Balance : " + ci.getAcc_bal());
+	}
+	
+	public static void BankBalance()
+	{
+		System.out.println("Total Amount in Bank : " + CustomerInfo.getBank_bal());
+	}
+
+}

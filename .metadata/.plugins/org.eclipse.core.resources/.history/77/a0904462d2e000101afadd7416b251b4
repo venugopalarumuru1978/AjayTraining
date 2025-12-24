@@ -1,0 +1,32 @@
+package InheritacePack;
+
+class Student
+{
+	protected String sname, course;
+	
+	public void getStd(String sname, String course)
+	{
+		this.sname = sname;
+		this.course = course;
+	}
+}
+
+
+class Marks extends Student
+{
+	protected void getMarks() {
+		
+	}
+
+}
+
+
+
+public class MultilevelMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

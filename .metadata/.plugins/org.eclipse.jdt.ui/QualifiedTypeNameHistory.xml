@@ -4,4 +4,8 @@
     <fullyQualifiedTypeName name="conspack.MultiCons"/>
     <fullyQualifiedTypeName name="getsetpack.TestClass"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="staticpack.DemoStatic"/>
+    <fullyQualifiedTypeName name="staticpack.Customer"/>
+    <fullyQualifiedTypeName name="staticpack.CustomerInfo"/>
+    <fullyQualifiedTypeName name="staticpack.CustomerFun"/>
 </qualifiedTypeNameHistroy>

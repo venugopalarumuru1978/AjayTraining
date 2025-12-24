@@ -1,0 +1,10 @@
+package staticpack;
+
+public class Customer {
+
+	private String cname;
+	private int acc_bal;
+	private static int bank_bal;
+	
+	
+}

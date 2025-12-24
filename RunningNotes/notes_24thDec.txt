@@ -1,0 +1,38 @@
+Static Members:- 
+----------------
+class, object, methods, constructor, getter and setter.
+
+Class members are classified into two types
+
+1.  Non-Static Members :-  these are used to make multiple copies of data. So that every member binded with an object
+2.  Static Members :-  
+
+these are used to make single of copy of data, so that these are binded with class. i.e. it uses class memory.
+
+points :- 
+
+1.  These are used to declare / define with "static" keyword.
+2.  Static Methods can handle only static variables of the class whereas non-static method can handle both static and non-static variables. 
+3.  Static methods can be called with the help of class. 
+-----------------------------------------------
+Inheritance :- 
+
+the process of getting features from one class to another specific class. purpose of the inheritance is re-usablity of the class. 
+
+here First Class is called Base/parent/super class and second class is called derived/child/sub class.
+inheritance always happend from parent to child class. 
+
+To inherit parent to class child class, "extends" keyword is used. 
+
+As per inheritance, just create an object for child classes then call methods of parent and child classes.
+
+type of inheritances:-
+---------------------
+Single Inheritance
+Multi Level
+Multiple 
+Hirarchical 
+Hybrid
+----------------------
+
+
