@@ -1,0 +1,40 @@
+package abstractpack;
+
+interface Art1
+{
+	void Addition();
+	void Minus();
+}
+
+interface Art2 extends Art1
+{
+	void Division();
+	void Multiplication();
+}
+
+class Arit_Operation implements Art2
+{
+
+	private int x, y;
+	
+	public Arit_Operation(int x, int y) {
+		// TODO Auto-generated constructor stub
+		this.x = x;
+		this.y = y;
+	}
+	
+}
+
+public class interMain2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Arithematic1 ar = new Arit_Operations(10, 2);
+		ar.Addition();
+		ar.Minus();
+		Arithematic2 ar2 = new Arit_Operations(10, 2);
+		ar2.Division();
+		ar2.Multiplication();
+	}
+
+}

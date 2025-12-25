@@ -1,0 +1,24 @@
+package abstractpack;
+
+
+abstract class Test1
+{
+	protected int x, y;
+	
+	abstract  void Addition();
+	abstract  void Minus();
+}
+
+class Test2 extends Test1
+{
+	
+}
+
+public class absMain {
+
+	public static void main(String[] args) {
+			//Test t1 = new Test();
+			
+	}
+
+}

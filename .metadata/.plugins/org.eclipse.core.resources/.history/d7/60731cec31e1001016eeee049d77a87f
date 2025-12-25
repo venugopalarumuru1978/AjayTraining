@@ -1,0 +1,19 @@
+package abstractpack;
+
+interface Arithematic
+{
+	void Addition();
+	void Minus();
+	void Division();
+}
+
+
+
+public class interMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

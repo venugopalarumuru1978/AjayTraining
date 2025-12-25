@@ -1,0 +1,24 @@
+package InheritacePack;
+
+//Super class
+class Vehicle {
+  Vehicle() {
+      System.out.println("This is a Vehicle");
+  }
+}
+
+//Subclass 
+class Car extends Vehicle {
+ 
+}
+
+
+
+public class ConsInherit {
+
+	public static void main(String[] args) {
+		Car  car = new Car();
+
+	}
+
+}

@@ -1,0 +1,47 @@
+package abstractpack;
+
+interface Arithematic
+{
+	void Addition();
+	void Minus();
+	void Division();
+}
+
+class Arit_Operations implements Arithematic
+{
+
+	private int x, y;
+	
+	public Arit_Operations(int x, int y) {
+		// TODO Auto-generated constructor stub
+		this.x = x;
+		this.y = y;
+	}
+	
+	@Override
+	public void Addition() {
+		// TODO Auto-generated method stub
+		System.out.println(x+y);
+	}
+
+	@Override
+	public void Minus() {
+		// TODO Auto-generated method stub
+		System.out.println(x-y);
+	}
+
+	@Override
+	public void Division() {
+		// TODO Auto-generated method stub
+		System.out.println(x/y);
+	}
+}
+
+public class interMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

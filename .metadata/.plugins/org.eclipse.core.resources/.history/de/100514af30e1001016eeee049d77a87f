@@ -1,0 +1,45 @@
+package abstractpack;
+
+abstract class Test1
+{
+	protected int x, y;
+	
+	Test1(int x, int y)
+	{
+		this.x = x;
+		this.y = y;
+	}
+	
+	abstract  void Addition();
+	abstract  void Minus();
+}
+
+class Test2 extends Test1
+{
+
+	Test2(int a, int b)
+	{
+		super(a,b);
+	}
+	
+	@Override
+	void Addition() {
+		// TODO Auto-generated method stub
+		System.out.println("Addition : " + (x+y));
+	}
+
+	@Override
+	void Minus() {
+		// TODO Auto-generated method stub
+		System.out.println("Substraction : " + (x-y));
+	}
+}
+
+public class absMain {
+
+	public static void main(String[] args) {
+			Test2  t1 = new Test2(10,5);
+			t1.Addition();
+			t1.Minus();			
+	}
+}

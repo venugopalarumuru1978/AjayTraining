@@ -1,0 +1,10 @@
+package InheritacePack;
+
+public class ConsInherit {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,40 @@
+package InheritacePack;
+
+class Demo1
+{
+	protected int x;
+	
+	Demo1(int x)
+	{
+		System.out.println("Parent class constructor");
+		this.x = x;
+	}
+}
+
+class Demo2 extends Demo1
+{
+	private float y;
+
+	Demo2(float y, int a)
+	{
+		super(a);
+		this.y = y;
+		System.out.println("Child Class Constructor");
+	}
+	
+	public void Print()
+	{
+		System.out.println("X value : " + x);
+		System.out.println("Y value : " + y);
+	}
+}
+
+public class ConsEx {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Demo2 d2 = new Demo2(12.34f, 45);
+		d2.Print();
+	}
+
+}

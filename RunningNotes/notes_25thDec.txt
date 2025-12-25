@@ -1,0 +1,80 @@
+Today's agenda
+--------------
+Constructors in Inheritance:- 
+
+1. parent class constructor will get executed with child class object. 
+2. parent and child class constructors will be executed with child class object, if those constructor are not having any parameters. 
+3. if parent class constructor having any parameters, then that constructor has to call in child class constructor with the help of super() method. 
+
+Data Abstraction:- 
+------------------
+Abstraction in Java is the process of hiding internal implementation details and showing only essential functionality to the user. It focuses on what an object does rather than how it does it.
+
+Abstraction hides the complex details and shows only essential features.
+
+Java provides two ways to implement abstraction, which are listed below:
+
+Abstract Classes (Partial Abstraction)
+Interface (100% Abstraction)
+
+
+Abstract Class:- It is a class  which allows to define  class but will not allow to create an object for that class.
+
+Points
+
+1.  Add abstract keyword to the class definition. 
+2.  Every abstract class is a parent class in inheritancce
+3.  Abstract class allows to define and declare methods. Declared methods are called abstract methods.
+4.  Every abstract method will get its functionality in its child classes.
+
+---------------
+Interface :- It is also one type of class which allows only declaration of methods. 
+
+interface  <name>
+{
+	method declaration
+}
+
+points :- 
+
+1. interface must be inherited to the child classes with the help of "implements" keyword
+2.  it supports multiple inheritance, where multiple interfaces can be inherited to the single child class. 
+3.  inheritance can be placed b/w interfaces. 
+
+interface iface1
+{
+}
+
+interface iface2  extends iface1
+{
+}
+
+class abc implements iface2
+{
+
+}
+
+4. A child class can inherit one parent class and multiple interfaces. 
+here first parent class then interfaces has to be inherited.
+
+class parent
+{
+
+}
+
+interface iface1
+{
+}
+
+interface iface2
+{
+}
+
+class child  extends parent  implements iface1, iface2 
+{
+
+}
+
+
+
+ 

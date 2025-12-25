@@ -8,4 +8,6 @@
     <fullyQualifiedTypeName name="staticpack.Customer"/>
     <fullyQualifiedTypeName name="staticpack.CustomerInfo"/>
     <fullyQualifiedTypeName name="staticpack.CustomerFun"/>
+    <fullyQualifiedTypeName name="abstractpack.Arithematic"/>
+    <fullyQualifiedTypeName name="abstractpack.Arit_Operations"/>
 </qualifiedTypeNameHistroy>

@@ -1,0 +1,36 @@
+package abstractpack;
+
+
+abstract class Test1
+{
+	protected int x, y;
+	
+	abstract  void Addition();
+	abstract  void Minus();
+}
+
+class Test2 extends Test1
+{
+
+	@Override
+	void Addition() {
+		// TODO Auto-generated method stub
+		System.out.println("Addition : " + (x+y));
+	}
+
+	@Override
+	void Minus() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+}
+
+public class absMain {
+
+	public static void main(String[] args) {
+			//Test t1 = new Test();
+			
+	}
+
+}
