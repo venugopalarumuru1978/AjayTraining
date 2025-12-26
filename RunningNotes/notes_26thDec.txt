@@ -1,0 +1,28 @@
+Polymarphisum:- 
+---------------
+
+The process of defining multiple actions for single unit. 
+
+two types 
+
+Overloading :-   Add on features to the existing unit. It can be implemented on method of the class.
+
+Method Overloading :- the process of grouping similar kinds different actions into single unit. 
+			here every method should have same name and has to show diff in other characterstics.
+
+1. Every method should have different no of parameters.
+2. if no of parameters are same, then change the data type. 
+
+-------------------------------
+Overriding  :-  Replacement features to the existing unit. 
+
+Method Overriding:- 
+Overriding is a feature that allows a subclass or child class to provide a specific implementation of a method that is already provided by one of its super-classes or parent classes.
+
+1. Both parent and child classes should have same name and counting of methods including parameters. 
+2. First Create an object for the parent class then call the methods of the parent class. 
+3. Now create an object for the child class then assign that object to the parent class object. (overriding)
+4. Now call methods, it calls child class methods.
+-----------------------
+ 
+

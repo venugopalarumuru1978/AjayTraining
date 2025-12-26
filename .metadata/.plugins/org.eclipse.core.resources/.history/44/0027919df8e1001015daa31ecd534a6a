@@ -1,0 +1,23 @@
+package polypack;
+
+
+class Parent
+{
+
+	public void Add(int x, int y)
+	{
+		
+	}
+
+}
+
+
+
+public class Poly1Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,21 @@
+package polypack;
+
+class Shapes
+{
+	
+	public static void Area(float r)
+	{
+		
+	}
+
+}
+
+
+public class PolyMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

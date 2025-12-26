@@ -1,0 +1,61 @@
+package polypack;
+
+class Shapes
+{
+	public static void Area(float r)
+	{
+		System.out.println("Area of circle is : " + (3.14f*r*r));
+	}
+	
+	public static void Area(int l, int b)
+	{
+		System.out.println("Area of rectangle is : " + (l*b));
+	}
+	
+	public static void Area(float b, float h)
+	{
+		System.out.println("Area of traingle is : " + (0.5f*b*h));
+	}
+}
+
+class BigNumber
+{
+	public void Big(int x, int y)
+	{
+		if(x>y)
+			System.out.println(x + " and " + y + " Big No : " + x);
+		else
+			System.out.println(x + " and " + y + " Big No : " + y);
+	}
+	
+	public void Big(float x, float y)
+	{
+		if(x>y)
+			System.out.println(x + " and " + y + " Big No : " + x);
+		else
+			System.out.println(x + " and " + y + " Big No : " + y);
+	}
+	
+	public void Big(float x, int y)
+	{
+		if(x>y)
+			System.out.println(x + " and " + y + " Big No : " + x);
+		else
+			System.out.println(x + " and " + y + " Big No : " + y);
+	}
+}
+
+
+public class PolyMain {
+
+	public static void main(String[] args) {
+			Shapes.Area(1.5f, 2.0f);
+			Shapes.Area(1.5f);
+			Shapes.Area(5,6);
+			// -----------
+			BigNumber big = new BigNumber();
+			big.Big(10,5);
+			big.Big(10.5f,50.0f);
+			big.Big(1.5f,5);			
+	}
+}
