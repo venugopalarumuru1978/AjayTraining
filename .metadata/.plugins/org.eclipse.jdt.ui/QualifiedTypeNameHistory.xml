@@ -3,11 +3,14 @@
     <fullyQualifiedTypeName name="conspack.ConsParams"/>
     <fullyQualifiedTypeName name="conspack.MultiCons"/>
     <fullyQualifiedTypeName name="getsetpack.TestClass"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="staticpack.DemoStatic"/>
     <fullyQualifiedTypeName name="staticpack.Customer"/>
     <fullyQualifiedTypeName name="staticpack.CustomerInfo"/>
     <fullyQualifiedTypeName name="staticpack.CustomerFun"/>
     <fullyQualifiedTypeName name="abstractpack.Arithematic"/>
     <fullyQualifiedTypeName name="abstractpack.Arit_Operations"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="InvalidAgeException"/>
+    <fullyQualifiedTypeName name="java.util.InputMismatchException"/>
 </qualifiedTypeNameHistroy>

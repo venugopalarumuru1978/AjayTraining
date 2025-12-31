@@ -1,9 +1,0 @@
-package getsetpack;
-
-public class Student {
-	private int studentId;
-	private String studentName, studentAddress, collegeName;
-	
-	
-
-}

@@ -1,0 +1,61 @@
+Today's Agenda
+--------------
+Exception Handling
+--------------
+Errors are 3 types
+
+1. Compile Time Errors :-  At the time of compilation / before executing program
+				any errors occurs, those are compile time.
+2. Run Time Errors :-    At the time of execution any error occurs, those are runtime errors.
+				To handle run-time errors, exception handling can be used.
+3. Logical Errors :-    Any Loigc Mistake in a code. 
+------------------------------------
+Exception :- It is an abnormal situtation generated at the time of program execution.
+
+Exception Handling :-  the process of handling the run-time errors/exceptions. it will provide following keywords
+
+try		:-  this block allows to detect any errors at the time of execution, if it found it will send to 
+				catch block.  
+catch		:- This block allow execute when try block gets an exception.
+
+	try
+	{
+		actual code
+	}
+	catch(ExceptionName Obj)
+	{
+		alternative code
+	}
+
+Exception is a parent class which can be used to solve any exception in the program as well as all other exception classes are child classes of Exception parent class.
+finally		:- This block will get executed when irrespective of exception. 
+	try
+	{
+		actual code
+	}
+	catch(ExceptionName Obj)
+	{
+		alternative code
+	}
+	finally
+	{
+		code must execute
+	}
+
+
+Exceptions are classified 3 types
+
+Unchecked  :-   these are not identified by the compiler at the time of compilation. To handle these exceptions
+			try - catch blocks are used. 
+
+Checked	   :-   these are identified by the compiler before execution / at the time of coding.
+				by using "throws" keyword these exceptions can be handled.
+
+		void MethodName(....) throws <exception_name>{
+			code
+		}
+User Defined :-  these are created by the user and handled by the user. 
+			to raise an exception "throw" can be used.
+
+			throw  new ExceptionName(.....)
+----------------------
