@@ -1,8 +1,0 @@
-package staticpack;
-
-public class DemoStatic {
-
-	private static int x, y;
-	
-	
-}

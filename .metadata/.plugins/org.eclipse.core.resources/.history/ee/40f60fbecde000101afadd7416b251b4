@@ -1,9 +1,0 @@
-package staticpack;
-
-public class CustomerFun {
-
-	
-	private CustomerInfo  ci = new CustomerInfo();
-	
-	
-}

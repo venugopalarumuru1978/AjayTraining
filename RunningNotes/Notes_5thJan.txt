@@ -1,0 +1,41 @@
+IO Streams:-
+-------------
+
+Stream :- It is a sequence of bits and bytes flowing from one medium to another medium. 
+
+Files :-  This concept is used to write and read data into / from files. 
+
+there different classes to work on it,
+
+
+FileOutputStream  :-  this class allows to write data into file, it process data in bytes format. 
+
+		FileOutputStream   <object> = new FileOutputStream("file name");
+
+		it is a child class of OutputStream
+
+
+	Write a program to store data into file. 
+
+
+FileWriter :- this class allows to write data into file directly in character format. 
+		
+		FileWriter  <obj> = new FileWriter("file name", boolean type)
+
+		Boolean Type :- true / false 
+
+		true :-  file exist, so that file willnot over write, new content will be appened.
+		false :-  file over write. 
+
+FileInputStream :- this class allows to read data from file byte by byte. 
+		
+		FileInputStream <obj> = new FileInputStream("file name");
+
+
+FileReader :- this class allows to read data from file line by line with character format. 
+
+			FileReader <Object> = new FileReader("filename")
+
+			BufferedReader  <obj> = new BufferedReader("file name"/System.in);
+
+	readLine() :-  this method allows to read string data line by line from specified input stream. 
