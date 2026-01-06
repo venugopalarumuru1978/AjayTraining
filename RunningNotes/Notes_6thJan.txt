@@ -1,0 +1,15 @@
+Wrapper Classes :- 
+-----------------
+These classes are used to convert string oriented different data type values into their native data type. 
+to do this process,  for every data type there is a wrapper class as follows
+
+Datatype  	class		method
+---------------------------------------
+int  		Integer 	parseInt(string)
+float		Float		parseFloat(String)
+long 		Long		parseLong(String)
+double		Double		parseDouble(String)
+-------------------------
+String st1 = "100";
+
+int n = Integer.parseInt(st1);

@@ -17,12 +17,10 @@ public class File4Ex {
 		
 		while(finfo!=null)
 		{
-		System.out.println(finfo);
-		finfo = brObj.readLine();
+				System.out.println(finfo);
+				finfo = brObj.readLine();
 		}
 		brObj.close();
 		frObj.close();
-
 	}
-
 }

@@ -1,0 +1,5 @@
+Pavan Kumar	Java	25000.0
+Lavanya	Python	40000.0
+Murali	Java	25000.0
+Sahasra	Python	40000.0
+Pavani Kumari	Java	25000.0
