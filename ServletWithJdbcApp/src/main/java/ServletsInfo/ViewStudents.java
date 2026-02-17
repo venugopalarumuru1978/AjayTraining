@@ -60,5 +60,4 @@ public class ViewStudents extends HttpServlet {
 		}
 		out.print("</table>");
 	}
-
 }

@@ -60,4 +60,9 @@ public class AddStudent extends HttpServlet {
 			System.out.println(e);
 		}
 	}
+	
+	public void test()
+	{
+		
+	}
 }
