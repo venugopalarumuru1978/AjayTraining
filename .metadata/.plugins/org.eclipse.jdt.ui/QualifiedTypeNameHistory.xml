@@ -51,6 +51,7 @@
     <fullyQualifiedTypeName name="java.sql.Connection"/>
     <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
     <fullyQualifiedTypeName name="person.connections.DbConnection"/>
-    <fullyQualifiedTypeName name="person.model.Person"/>
     <fullyQualifiedTypeName name="person.DAL.PersonDAL"/>
+    <fullyQualifiedTypeName name="person.model.Person"/>
+    <fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
 </qualifiedTypeNameHistroy>

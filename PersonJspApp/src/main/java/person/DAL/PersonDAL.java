@@ -85,6 +85,31 @@ public class PersonDAL {
 		return person;		
 	}
 	
+	public Person CheckLogin(String uname, String pwd)
+	{
+		Person person = null;
+		try {
+			psObj = conObj.prepareStatement("select * from Person where email=? and pswd=?");
+			psObj.setString(1, uname);
+			psObj.setString(2, pwd);
+			ResultSet res = psObj.executeQuery();
+			
+			if(res.next())
+			{
+				person = new Person();
+				person.setPid(res.getInt("pid"));
+				person.setPname(res.getString("personNam"));
+				person.setPhone(res.getString("phone"));
+				person.setEmail(res.getString("email"));
+				person.setPswd(res.getString("pswd"));
+			}
+		} catch (Exception e) {
+			// TODO: handle exception
+			System.out.println(e);
+		}
+		return person;		
+	}
+
 	public void DeletePerson(int pid)
 	{
 		try {
@@ -97,4 +122,6 @@ public class PersonDAL {
 			System.out.println(e);
 		}		
 	}
+	
+	
 }

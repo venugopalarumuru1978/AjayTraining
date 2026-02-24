@@ -7,8 +7,13 @@
 <title>Insert title here</title>
 </head>
 <body>
+<%
+	if(session.getAttribute("admin")!=null)
+	{
+%>
 <h1 style="text-align:center">Add New Person</h1>
 <hr />
+<jsp:include page="AdminLinks.html"/>
 <form name="frmPerson" method="POST" action="AddPerson">
 <p style="text-align:center">
 	<input type="text"  name="txtPname"  placeholder="Person Name" required/>
@@ -22,5 +27,10 @@
 	<input type="submit"  value="Register Person" />
 </p>
 </form>
+<%
+}
+	else
+		response.sendRedirect("Login.jsp");
+%>
 </body>
 </html>
