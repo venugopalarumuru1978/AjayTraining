@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="conspack.ConsParams"/>
-    <fullyQualifiedTypeName name="conspack.MultiCons"/>
-    <fullyQualifiedTypeName name="getsetpack.TestClass"/>
     <fullyQualifiedTypeName name="staticpack.DemoStatic"/>
     <fullyQualifiedTypeName name="staticpack.Customer"/>
     <fullyQualifiedTypeName name="staticpack.CustomerInfo"/>
@@ -37,14 +34,8 @@
     <fullyQualifiedTypeName name="java.util.TreeSet"/>
     <fullyQualifiedTypeName name="ConnectionPack.DbConnection"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="java.io.BufferedReader"/>
-    <fullyQualifiedTypeName name="java.io.InputStreamReader"/>
     <fullyQualifiedTypeName name="OperationsPack.CricketOperations"/>
     <fullyQualifiedTypeName name="OperationsPack.Cricket"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="org.hibernate.cfg.Configuration"/>
-    <fullyQualifiedTypeName name="org.hibernate.SessionFactory"/>
     <fullyQualifiedTypeName name="ConnectionInfo.DbConnection"/>
     <fullyQualifiedTypeName name="java.io.PrintWriter"/>
     <fullyQualifiedTypeName name="java.sql.ResultSet"/>
@@ -54,4 +45,19 @@
     <fullyQualifiedTypeName name="person.DAL.PersonDAL"/>
     <fullyQualifiedTypeName name="person.model.Person"/>
     <fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
+    <fullyQualifiedTypeName name="org.hibernate.cfg.Configuration"/>
+    <fullyQualifiedTypeName name="org.hibernate.SessionFactory"/>
+    <fullyQualifiedTypeName name="org.hibernate.Session"/>
+    <fullyQualifiedTypeName name="org.hibernate.Transaction"/>
+    <fullyQualifiedTypeName name="com.entities.Student"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Entity"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Table"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Id"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Column"/>
+    <fullyQualifiedTypeName name="coms.entities.Employee"/>
+    <fullyQualifiedTypeName name="java.io.BufferedReader"/>
+    <fullyQualifiedTypeName name="java.io.InputStreamReader"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.TypedQuery"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
 </qualifiedTypeNameHistroy>
