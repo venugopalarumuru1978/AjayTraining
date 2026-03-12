@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="http://www.springframework.org/schema/beans"
+    xmlns:context="http://www.springframework.org/schema/context"
+    xmlns:mvc="http://www.springframework.org/schema/mvc"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans 
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+    http://www.springframework.org/schema/context 
+    http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+
+	<!--  setter dependency injection -->
+	<bean  id="accObj"  class="coms.beans.Account">
+		<property name="AccNo"  value="ACC001"/>
+		<property name="BankName"  value="ICICI"/>
+	</bean>
+
+	<bean  id="empObj"  class="coms.beans.Employee">
+		<property name="ename"  value="Ajay Kumar"/>
+		
+		<property name="jobs">
+			<list>
+				<value>Jr. Developer</value>
+				<value>Sr. Developer</value>
+				<value>Team Lead</value>
+			</list>
+		</property>
+		
+		<property name="qualifications">
+			<set>
+				<value>B.Tech</value>
+				<value>M.Tech</value>
+			</set>
+		</property>
+		
+		<property name="job_sals">
+			<map>
+				<entry key="Jr. Developer" value="15000"/>
+				<entry key="Sr. Developer" value="30000"/>
+				<entry key="Team Lead" value="100000"/>
+			</map>
+		</property>
+		
+		<property name="acc" ref="accObj"/>
+	</bean>
+</beans>
